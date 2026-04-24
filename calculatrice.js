@@ -1,4 +1,4 @@
-// Calculatrice simple en JavaScript
+// Calculatrice Avancée v2.0 - Développée par l'équipe A
 function additionner(a, b) {
 return a + b;
 }
@@ -23,7 +23,8 @@ function modulo(a, b) {
 }
 // Tester la fonction
 console.log('10 % 3 =', modulo(10, 3));   // Attendu : 1
-console.log('15 % 4 =', modulo(15, 4));   // Attendu : 3
+console.log('15 % 4 =', modulo(15, 4));   // Attendu : 3C:\Users\Noureidine\calculatrice-js>git push origin feature/puissance
+
 // Tests rapides
 console.log('5 + 3 =', additionner(5, 3));       
 // Attendu : 8
