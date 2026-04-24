@@ -23,3 +23,24 @@ console.log('6 x 7 =', multiplier(6, 7));
 // Attendu : 42
 console.log('15 / 3 =', diviser(15, 3));         
 // Attendu : 5
+
+// Historique des opérations
+const historique = [];
+function ajouterAHistorique(operation, resultat) {
+const entree = {
+operation: operation,
+resultat: resultat,
+date: new Date().toLocaleString()
+};
+historique.push(entree);
+}
+function afficherHistorique() {
+console.log('=== Historique des calculs ===');
+historique.forEach((entree, index) => {
+console.log(`${index + 1}. ${entree.operation} = ${entree.resultat}`);
+});
+}
+// Exemple d'utilisation
+ajouterAHistorique('5 + 3', additionner(5, 3));
+ajouterAHistorique('10 - 4', soustraire(10, 4));
+afficherHistorique()
