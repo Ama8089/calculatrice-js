@@ -1,0 +1,25 @@
+{
+  "name": "calculatrice",
+  "version": "1.0.0",
+  "description": "Créez aussi un fichier README.md :\r # Calculatrice JavaScript\r Projet réalisé dans le cadre du cours Atelier Génie Logiciel.\r ## Fonctionnalités- Addition- Soustraction- Multiplication- Division (avec protection contre la division par zéro)\r ## Utilisation\r node calculatrice.js",
+  "main": "calculatrice.js",
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "start": "node src/calculatrice.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ama8089/calculatrice-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ama8089/calculatrice-js/issues"
+  },
+  "homepage": "https://github.com/Ama8089/calculatrice-js#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
