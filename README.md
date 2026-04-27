@@ -2,6 +2,8 @@
 
 Projet réalisé dans le cadre du cours Atelier Génie Logiciel - TP5 CI/CD.
 
+![CI/CD Status](https://img.shields.io/badge/CI%2FCD-passing-brightgreen)
+
 ## Fonctionnalités
 
 - Addition
